@@ -4,7 +4,7 @@ let cols, rows;
 
 function setup() {
   angleMode(DEGREES)
-  createCanvas(600, 600);
+  createCanvas(windowWidth, windowHeight);
   cols = floor(width / w);
   rows = floor(height / w);
   for (let i = 5; i < cols-5; i++) {
